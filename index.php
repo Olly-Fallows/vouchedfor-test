@@ -9,8 +9,9 @@
         margin: 0px;
       }
 
-      #root {
-        padding: 2vw 2vw;
+      .root {
+        padding: 2vw;
+        padding-left: 25vw;
       }
 
       .input-field {
@@ -23,13 +24,36 @@
       .inline {
         display: inline;
       }
-      .min-width {
-        min-width: 0px;
+      .width-100 {
+        width:100%
+      }
+      .width-75 {
+        width: 75%;
+      }
+      .width-50 {
+        width: 50%
+      }
+      .width-40 {
+        width: 40%
+      }
+      .width-20 {
+        width: 20%
+      }
+      .width-10 {
+        width: 10%
+      }
+      .middle {
+        text-align: center;
+      }
+      .left {
+        text-align: left;
       }
     </style>
   </head>
   <body>
-    <div id="root">
+    <div id="root" class="root middle">
+    </div>
+    <div id="feedback" class="root middle">
     </div>
     <script type="text/babel" src="scripts/index_script.js"></script>
   </body>
